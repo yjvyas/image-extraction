@@ -1,0 +1,5 @@
+<launch>
+  <group ns="$(arg veh)"> 
+    <node pkg="image-extraction" type="image-extraction.py" name="image_extractor" output="screen"/>
+  </group>
+</launch>
